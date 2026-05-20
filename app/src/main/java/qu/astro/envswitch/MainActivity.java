@@ -167,7 +167,8 @@ public class MainActivity extends ComponentActivity {
 
             for (ApplicationInfo ai : apps) {
                 String pn = ai.packageName;
-                if (pn.contains(".environment.") || pn.contains(".env.vista.") || pn.contains(".env.footprint.")) {
+                if (pn.contains(".environment.") || pn.contains(".env.vista.")
+                        || pn.contains(".env.footprint.") || pn.startsWith("com.env.")) {
                     candidates.add(ai);
                 }
             }
