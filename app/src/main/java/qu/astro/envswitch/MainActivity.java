@@ -419,10 +419,6 @@ public class MainActivity extends ComponentActivity {
             Toast.makeText(this, "Protected: cannot uninstall " + item.label, Toast.LENGTH_LONG).show();
             return;
         }
-        if (currentScene != null && currentScene.contains(item.packageName)) {
-            Toast.makeText(this, "Cannot uninstall active environment", Toast.LENGTH_LONG).show();
-            return;
-        }
         new AlertDialog.Builder(this)
                 .setTitle("Uninstall " + item.label + "?")
                 .setMessage("This will uninstall " + item.packageName + " via root.\nProceed?")
