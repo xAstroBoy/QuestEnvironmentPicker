@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Env Picker</string>
+    <string name="apply">Apply</string>
+    <string name="refresh">Refresh</string>
+    <string name="root_check">Root Check</string>
+    <string name="set_defaults">Set Defaults</string>
+    <string name="current">Current:</string>
+    <string name="scan_hint">Scanning installed environments…</string>
+    <string name="choose_zip">Choose ZIP</string>
+    <string name="set_default">Set Default</string>
+    <string name="copy_cmd">Copy Cmd</string>
+    <string name="section_environments">ENVIRONMENTS</string>
+    <string name="section_vistas">VISTAS</string>
+    <string name="section_footprints">FOOTPRINTS</string>
+    <string name="apply_vista">Apply Vista</string>
+    <string name="apply_footprint">Apply Footprint</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="restart_vrs">Restart VRS</string>
+</resources>
